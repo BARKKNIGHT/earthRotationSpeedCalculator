@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Earth Rotation Speed Calculator</title>
+    <title>Earth Rotation Speed and Location</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
-    <h1>Calculate Your Speed due to Earth's Rotation</h1>
-    <button onclick="trackUser()">Calculate My Speed</button>
+    <h1>Your Speed due to Earth's Rotation and Location</h1>
+    <button onclick="trackUser()">Show My Location and Speed</button>
     <p id="speed">Your speed will be displayed here.</p>
+    <div id="map" style="height: 400px; width: 100%;"></div>
     <script src="earthRotationSpeedCalculator.js"></script>
 </body>
 </html>
