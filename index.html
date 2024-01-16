@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Earth Rotation Speed and Location</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <title>Earth Rotation Speed and Location</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 </head>
 <body>
     <h1>Your Speed due to Earth's Rotation and Location</h1>
     <button onclick="trackUser()">Show My Location and Speed</button>
-    <p id="speed">Your speed will be displayed here.</p>
+    <p id="speed">Your speed due to Earth's rotation is: </p>
     <div id="map" style="height: 500px; width: 100%;"></div>
     <script src="earthRotationSpeedCalculator.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </body>
 </html>
